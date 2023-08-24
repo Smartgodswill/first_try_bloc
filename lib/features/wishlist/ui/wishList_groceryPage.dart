@@ -22,7 +22,9 @@ class _WishList_GroceryPageState extends State<WishList_GroceryPage> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          backgroundColor: Colors.teal,
+        ),
         body: BlocConsumer<WishlistBloc, WishlistState>(
           listener: (context, state){} ,
             bloc:_wishlistBloc ,

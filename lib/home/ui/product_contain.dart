@@ -48,12 +48,12 @@ class ProdcutContain extends StatelessWidget {
                     clickedProduct:productDataModel
                   ));
                
-               }, icon:const Icon(Icons.favorite_outline)),
+               }, icon:const Icon(Icons.favorite_outline,color: Colors.teal,)),
                   IconButton(onPressed: (){
                    homebloc.add(HomeproductCartbuttonclickedEvent(
                     clickedProduct: productDataModel
                    ));
-                  }, icon:const Icon(Icons.shopping_bag_outlined))
+                  }, icon:const Icon(Icons.shopping_bag_outlined,color: Colors.teal,))
               ],
             )
         ],

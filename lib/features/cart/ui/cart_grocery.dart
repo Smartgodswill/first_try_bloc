@@ -22,7 +22,9 @@ class _CartGroceryPageState extends State<CartGroceryPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          backgroundColor: Colors.teal,
+        ),
         body: BlocConsumer<CartblocBloc, CartblocState>(
             bloc: cartBloc,
             builder: (context, state) {

@@ -49,12 +49,12 @@ class CartTile extends StatelessWidget {
                  // )
                   //);
                
-               }, icon: Icon(Icons.favorite_outline)),
+               }, icon: Icon(Icons.favorite_outline,color: Colors.teal,)),
                   IconButton(onPressed: (){
                  cartBloc.add(CartRemovefromCartEvent(
                   homeProductData: productDataModel
                  ));
-                  }, icon: Icon(Icons.shopping_bag))
+                  }, icon: Icon(Icons.shopping_bag,color: Colors.teal,))
               ],
             )
         ],

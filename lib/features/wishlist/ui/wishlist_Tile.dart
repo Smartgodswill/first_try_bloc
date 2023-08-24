@@ -55,11 +55,11 @@ class _wishListTileState extends State<wishListTile> {
                  // )
                   //);
                
-               }, icon: Icon(Icons.favorite_outline)),
+               }, icon: Icon(Icons.favorite_sharp,color: Colors.teal,)),
                   IconButton(onPressed: (){
              
                 
-                  }, icon: Icon(Icons.shopping_bag))
+                  }, icon: Icon(Icons.shopping_bag_outlined,color: Colors.teal,))
               ],
             )
         ],
